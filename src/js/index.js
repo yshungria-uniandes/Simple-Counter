@@ -14,8 +14,6 @@ setInterval(
     () => {
         ReactDOM.createRoot(document.getElementById('app')).render(<Counter number={counter}/>);
         counter++
-    }, gi 
+    },  
     1000
 );
-
-
